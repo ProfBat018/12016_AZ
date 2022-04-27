@@ -28,8 +28,8 @@
 # </editor-fold>
 
 # <editor-fold desc="List methods">
-
-nums = [i for i in range(1, 11)]
+#
+# nums = [i for i in range(1, 11)]
 
 # <editor-fold desc="Count - obyektin sayini cap edir">
 
@@ -131,12 +131,30 @@ nums = [i for i in range(1, 11)]
 # nums.pop()
 # print(res)
 
-res = list()
+# res = list()
+#
+# for i in range(len(nums)):
+#     res.append(nums[i])
+# print(res)
+# </editor-fold>
+
+# </editor-fold>
+
+# nums = [i for i in range(1, 11)]
+#
+# result = 0
+#
+# for i in range(len(nums)):
+#     result += nums[i]
+# print(result)
+
+nums = [i for i in range(1, 11)]
+nums_fact = list()
 
 for i in range(len(nums)):
-    res.append(nums[i])
-print(res)
-# </editor-fold>
+    tmp = 1
+    for j in range(nums[i], 0, -1):
+        tmp *= j
+    nums_fact.append(tmp)
 
-# </editor-fold>
-
+print(nums_fact)
