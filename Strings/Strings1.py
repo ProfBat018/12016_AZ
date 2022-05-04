@@ -36,7 +36,7 @@ import os
 
 # </editor-fold>
 
-text = "something in the way"
+text = "something.in.the.way"
 
 # print(text.index("w"))
 # print(text.count('i'))
@@ -55,6 +55,8 @@ text = "something in the way"
 #
 # print(new_text)
 
+result = text.split('.')
+print(result)
 
 # </editor-fold>
 
