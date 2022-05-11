@@ -87,10 +87,20 @@
 # </editor-fold>
 
 
-def foo(*args, num1, num2):
-    print(num1)
-    print(num2)
-    print(args)
+# def foo(*args, num1, num2):
+#     print(num1)
+#     print(num2)
+#     print(args)
+
+def find_count(nums: list, value):
+    count = 0
+    for i in range(len(nums)):
+        if nums[i] == value:
+            count += 1
+    return count
 
 
-foo(1, 2, 3, 4, 5, num1=1, num2=2)
+nums = [1, 1, 1, 2, 3, 4, 5]
+
+result = find_count(nums, 11)
+print(result)
