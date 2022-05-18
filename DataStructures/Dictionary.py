@@ -35,7 +35,7 @@
 #     print(key, users.get(key))
 
 
-def foo(nums1: tuple, nums2: tuple):
-    pass
+# def foo(nums1: tuple, nums2: tuple):
+#     pass
 
 
