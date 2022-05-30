@@ -47,8 +47,11 @@ class Car:
     def edit_year(self, new_year):
         self.year = new_year
 
-# class Showroom:
-#     def __init__(self, cars: list):
+
+class Showroom:
+    def __init__(self, cars: list):
+        self.cars = cars
+        self.budget = 10000
 
 
 def list_cars(cars: list):
