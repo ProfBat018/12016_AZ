@@ -44,3 +44,16 @@ class Car:
 #     print(car)
 
 # </editor-fold>
+
+# <editor-fold desc="Serialize 1 object">
+
+# import dicttoxml
+#
+# cars = [Car("Toyota", "Supra", 1995), Car("Mercedes", "190 EVO 2", 1995)]
+# car_dict = list(map(lambda x: x.__dict__, cars))
+#
+# res = dicttoxml.dicttoxml(car_dict, attr_type=False, custom_root="Car")
+# print(res)
+
+# </editor-fold>
+
